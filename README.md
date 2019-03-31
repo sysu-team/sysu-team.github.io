@@ -11,6 +11,12 @@ eg.
 
 ### 2. 图片路径
 
+#### 在本仓库的图片
+
+直接使用相对路径即可。
+
+#### 在github上的其他仓库
+
 插入 Github 上面的图片时其链接一定要注意，请在原 img 上右键复制该图片的实际存放的路径而不是在github 上的网页路径。否则 gitpages 会渲染不出来。
 
 对于同一张图片，有下面示例。
@@ -18,6 +24,7 @@ eg.
 错误示例 `https://github.com/rookies-sysu/Dashboard/blob/master/imgs/db/ER_model.png`
 
 正确示例 `https://github.com/rookies-sysu/Dashboard/blob/master/imgs/db/ER_model.png?raw=true`
+
 
 **每次提交后都上 git pages 确认一下图片的生成即可。**
 
