@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# 系统分析项目---挣闲钱
 
-You can use the [editor on GitHub](https://github.com/sysu-team/sysu-team.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+> 本分支主要是提交中山大学数据科学与计算机学院系统分析与设计课程相关的文档作业
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 注意事项
 
-### Markdown
+### 1. 文件命名规范
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+eg.
+`XX-XX-XX-demo.md` 使用`-`来进行连接，所有单词小写，前面先通过数字表明在`index.md`中的结构位置
 
-```markdown
-Syntax highlighted code block
+### 2. 图片路径
 
-# Header 1
-## Header 2
-### Header 3
+插入 Github 上面的图片时其链接一定要注意，请在原 img 上右键复制该图片的实际存放的路径而不是在github 上的网页路径。否则 gitpages 会渲染不出来。
 
-- Bulleted
-- List
+对于同一张图片，有下面示例。
 
-1. Numbered
-2. List
+错误示例 `https://github.com/rookies-sysu/Dashboard/blob/master/imgs/db/ER_model.png`
 
-**Bold** and _Italic_ and `Code` text
+正确示例 `https://github.com/rookies-sysu/Dashboard/blob/master/imgs/db/ER_model.png?raw=true`
 
-[Link](url) and ![Image](src)
-```
+**每次提交后都上 git pages 确认一下图片的生成即可。**
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 3. 提交流程
 
-### Jekyll Themes
+1. 按照命名规范命名新文件
+2. 修改`index.md`来索引新加入的文件
+3. 提交
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sysu-team/sysu-team.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## 参考
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+本仓库的设计参考自师兄的[优秀作业](https://github.com/rookies-sysu/Dashboard)
