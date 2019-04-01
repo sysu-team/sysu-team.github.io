@@ -7,7 +7,6 @@ layout: default
 &nbsp;&nbsp; 
 
 * 1、[About 项目规划](01-about)
-* test、[test](docs/test)
 * 2、[Team profile 团队组建](02-team-profile)
 * 3、[Investigation 项目前期调研](03-investigation)
 * 4、[Vision 项目愿景](04-vision)
@@ -40,11 +39,11 @@ layout: default
     - [Iteration 1 meeting (2018/04/09)](X1-iteration1-meeting)
     - [Iteration 2 meeting (2018/05/09)](X1-iteration2-meeting)
     - [Iteration 3 meeting (2018/06/30)](X1-iteration3-meeting)
-* [X2 Tech/Work Report](X2-techwork-report)
-* [X3 Final Report](X3-final-report)
+* [10 Tech/Work Report](X2-techwork-report)
+* [11 Final Report](X3-final-report)
     - [15331253-ECer23](https://www.jianshu.com/p/edae2a252471)
     - [15331238-BeAShper](https://blog.csdn.net/beashaper_/article/details/80871901)
     - [15331229-longjj](https://www.zybuluo.com/longj/note/1198045)
     - [15331200-YungLinjy](https://blog.csdn.net/yung_lin/article/details/80869708)
     - [15331251-Arururururu](https://github.com/Arururururu/SAD/blob/master/X3-final-report.md)
-* XX 建模练习
+* 12 建模练习
