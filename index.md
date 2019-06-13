@@ -35,8 +35,8 @@ layout: default
     - 8.3 [框架目录设计与逻辑架构与 ECB 的关系](08-03-relationship-between-ECB-framework-directory-design-logic-archit)
     - 8.4 [部署文档](08-04-deployment-doc)
 * 9 会议记录
-    - [第一次会议 (2018/03/31)](09-01-first-meeting)
-    - [Iteration 1 meeting (2018/04/09)](X1-iteration1-meeting)
+    - [项目起始 ](09-01-first-meeting)
+    - [第一次迭代过程记录](09-01-01-first-Iteration.md)
     - [Iteration 2 meeting (2018/05/09)](X1-iteration2-meeting)
     - [Iteration 3 meeting (2018/06/30)](X1-iteration3-meeting)
 * [10 Tech/Work Report](X2-techwork-report)
