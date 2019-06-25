@@ -12,16 +12,16 @@ layout: default
 * 4、[项目愿景](04-vision)
 * 5、[产品特性](05-product-backlog)
 * 6、需求规格说明
-    - 6.1 [Usecase Diagram](06-01-usecase-diagram.md)
-    - 6.2 [Use Cases 用例+活动图](06-02-use-cases.md)
-    - 6.3 [Domian Model 领域模型](06-03-domain-model.md)
-    - 6.4 [State Model 状态模型](06-04-state-model.md)
-    - 6.5 [System Sequence Diagram 功能模型](06-05-system-sequence-diagram.md)
-    - 6.6 [Supplementary Requirements 补充性说明]()
+    - 6.1 [用例设计](06-01-usecase-diagram.md)
+    - 6.2 [用例图+活动图](06-02-use-cases.md)
+    - 6.3 [领域模型](06-03-domain-model.md)
+    - 6.4 [状态模型](06-04-state-model.md)
+    - 6.5 [功能模型](06-05-system-sequence-diagram.md)
+    - 6.6 [补充性说明]()
 * 7、设计
-    - 7.1 UI design UI 设计
+    - 7.1UI 设计
         - [XX 用例 UI 设计](07-01-01-XX-ui-design)
-    - 7.2 Database design 数据库设计
+    - 7.2 数据库设计
         - 7.2.1 [用户及权限系统数据库设计](07-02-01-database-design)
         - 7.2.2 [数据库ER模型图](07-02-02-database-er-model)
         - 7.2.3 XX子系统数据课设计
