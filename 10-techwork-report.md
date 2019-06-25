@@ -9,5 +9,6 @@
 前端：
 
 - [微信小程序前端开发学习笔记](<https://blog.csdn.net/hellowangld/article/details/93369214?tdsourcetag=s_pctim_aiomsg>)
+- [微信小程序设置cookie](<https://blog.csdn.net/qq_36289733/article/details/93652562?tdsourcetag=s_pctim_aiomsg>)
 
 后端：
