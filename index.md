@@ -6,19 +6,19 @@ layout: default
 
 &nbsp;&nbsp; 
 
-* 1、[About 项目规划](01-about.md)
-* 2、[Team profile 团队组建](02-team-profile)
-* 3、[Investigation 项目前期调研](03-investigation)
-* 4、[Vision 项目愿景](04-vision)
-* 5、[Product Backlog 产品特性](05-product-backlog)
-* 6、Requirement specification 需求规格说明
+* 1、[项目规划](01-about.md)
+* 2、[团队组建](02-team-profile)
+* 3、[项目前期调研](03-investigation)
+* 4、[项目愿景](04-vision)
+* 5、[产品特性](05-product-backlog)
+* 6、需求规格说明
     - 6.1 [Usecase Diagram](06-01-usecase-diagram.md)
     - 6.2 [Use Cases 用例+活动图](06-02-use-cases.md)
     - 6.3 [Domian Model 领域模型](06-03-domain-model.md)
     - 6.4 [State Model 状态模型](06-04-state-model.md)
     - 6.5 [System Sequence Diagram 功能模型](06-05-system-sequence-diagram.md)
     - 6.6 [Supplementary Requirements 补充性说明]()
-* 7、Design 设计
+* 7、设计
     - 7.1 UI design UI 设计
         - [XX 用例 UI 设计](07-01-01-XX-ui-design)
     - 7.2 Database design 数据库设计
@@ -37,13 +37,13 @@ layout: default
 * 9 会议记录
     - [项目起始 ](09-01-first-meeting)
     - [第一次迭代过程记录](09-01-01-first-Iteration.md)
-    - [Iteration 2 meeting (2018/05/09)](X1-iteration2-meeting)
-    - [Iteration 3 meeting (2018/06/30)](X1-iteration3-meeting)
-* [10 Tech/Work Report](X2-techwork-report)
-* [11 Final Report](X3-final-report)
-    - [15331253-ECer23](https://www.jianshu.com/p/edae2a252471)
-    - [15331238-BeAShper](https://blog.csdn.net/beashaper_/article/details/80871901)
-    - [15331229-longjj](https://www.zybuluo.com/longj/note/1198045)
-    - [15331200-YungLinjy](https://blog.csdn.net/yung_lin/article/details/80869708)
-    - [15331251-Arururururu](https://github.com/Arururururu/SAD/blob/master/X3-final-report.md)
-* 12 建模练习
+    - [第二次迭代过程记录](X1-iteration2-meeting)
+    - [第三次迭代过程记录](X1-iteration3-meeting)
+* [10 技术报告](10-techwork-report.md)
+* [11 最终个人报告](X3-final-report)
+    - [16340226-王迎旭]()
+    - [16340224-王显淼](https://blog.csdn.net/beashaper_/article/details/80871901)
+    - [16340237-吴梓溢]()
+    - [16340219-王亮岛]()
+    - [16340253-谢浩峰]()
+* 12 项目分工
