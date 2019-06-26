@@ -16,9 +16,9 @@
     - 7.2 数据库设计
         - 7.2.1 [系统数据库设计](07-02-01-databasedesign.md)
         - 7.2.2 [数据库ER模型图](07-02-02-databaseeER.md)
-    - 7.3 [API 设计](07-03-API)
+    - 7.3 [API 设计](07-03-API.md)
     - 7.4 [软件架构文档](07-04-software-architecture.md)
-    - 7.5 [用例设计](07-05-usecase-design)
+    - 7.5 [用例设计](07-05-usecase-design.md)
 * 8、生产规范与指南
     - 8.1 [代码规范](08-01-code-specification.md)
     - 8.2 [REST API设计规范](08-02-restful.md)
