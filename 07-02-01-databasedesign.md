@@ -29,8 +29,8 @@
 | receiver_id      | string | 接受者的id                 |
 | delegation_name  | string | 委托的名字                 |
 | start_time       | int64  | 开始的时间，Unix时间戳     |
-| delegation_state | 4      | 委托的状态                 |
-| reward           | 5      | 委托的积分奖励             |
+| delegation_state | int64  | 委托的状态                 |
+| reward           | int64  | 委托的积分奖励             |
 | description      | string | 委托的描述                 |
 | deadline         | int64  | 委托结束的时间，Unix时间戳 |
 | delegation_type  | string | 委托的类型                 |
