@@ -18,19 +18,16 @@ layout: default
     - 6.4 [状态模型](06-04-state-model.md)
     - 6.5 [功能模型](06-05-system-sequence-diagram.md)
 * 7、设计
-    - 7.1UI 设计
-        - [XX 用例 UI 设计](07-01-01-XX-ui-design)
+    - 7.1[UI 设计]()
     - 7.2 数据库设计
-        - 7.2.1 [用户及权限系统数据库设计](07-02-01-database-design)
+        - 7.2.1 [系统数据库设计](07-02-01-databasedesign.md)
         - 7.2.2 [数据库ER模型图](07-02-02-database-er-model)
-        - 7.2.3 XX子系统数据课设计
-        - 7.2.x [第三方数据评审结果](07-02-03-第三方数据评审结果)
     - 7.3 [API 设计](07-03-API)
     - 7.4 [软件架构文档](07-04-software-architecture-document)
     - 7.5 [用例设计](07-05-usecase-design)
 * 8、生产规范与指南
-    - 8.1 [代码规范](08-01-coding-standard)
-    - 8.2 [REST API设计规范](08-02-RESTful-api-design-standard)
+    - 8.1 [代码规范](08-01-code-specification.md)
+    - 8.2 [REST API设计规范](08-02-restful.md)
     - 8.3 [框架目录设计与逻辑架构与 ECB 的关系](08-03-relationship-between-ECB-framework-directory-design-logic-archit)
     - 8.4 [部署文档](08-04-deployment-doc)
 * 9 会议记录
