@@ -1,10 +1,4 @@
----
-layout: default
----
-
-# [](#TOC)目录
-
-&nbsp;&nbsp; 
+# 目录
 
 * 1、[项目规划](01-about.md)
 * 2、[团队组建](02-team-profile)
