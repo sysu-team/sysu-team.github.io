@@ -22,7 +22,7 @@
 * 8、生产规范与指南
     - 8.1 [代码规范](08-01-code-specification.md)
     - 8.2 [REST API设计规范](08-02-restful.md)
-    - 8.3 [框架目录设计与逻辑架构与 ECB 的关系](08-03-relationship-between-ECB-framework-directory-design-logic-archit)
+    - 8.3 [框架目录设计与逻辑架构与 ECB 的关系](08-03-relation.md)
     - 8.4 [部署文档](08-04-deployment-doc)
 * 9、  [成品展示]()
 * 10、会议记录
