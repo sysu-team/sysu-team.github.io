@@ -15,9 +15,9 @@
     - 7.1[UI 设计]()
     - 7.2 数据库设计
         - 7.2.1 [系统数据库设计](07-02-01-databasedesign.md)
-        - 7.2.2 [数据库ER模型图](07-02-02-database-er-model)
+        - 7.2.2 [数据库ER模型图](07-02-02-databaseeER.md)
     - 7.3 [API 设计](07-03-API)
-    - 7.4 [软件架构文档](07-04-software-architecture-document)
+    - 7.4 [软件架构文档](07-04-software-architecture.md)
     - 7.5 [用例设计](07-05-usecase-design)
 * 8、生产规范与指南
     - 8.1 [代码规范](08-01-code-specification.md)
