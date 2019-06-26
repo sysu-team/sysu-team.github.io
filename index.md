@@ -5,13 +5,13 @@
 * 3、[项目前期调研](03-investigation)
 * 4、[项目愿景](04-vision)
 * 5、[产品特性](05-product-backlog)
-* 6、需求规格说明
+* 6、需求规格说明书
     - 6.1 [用例设计](06-01-usecase-diagram.md)
     - 6.2 [用例图+活动图](06-02-use-cases.md)
     - 6.3 [领域模型](06-03-domain-model.md)
     - 6.4 [状态模型](06-04-state-model.md)
     - 6.5 [功能模型](06-05-system-sequence-diagram.md)
-* 7、设计
+* 7、设计说明书
     - 7.1[UI 设计]()
     - 7.2 数据库设计
         - 7.2.1 [系统数据库设计](07-02-01-databasedesign.md)
@@ -24,16 +24,17 @@
     - 8.2 [REST API设计规范](08-02-restful.md)
     - 8.3 [框架目录设计与逻辑架构与 ECB 的关系](08-03-relationship-between-ECB-framework-directory-design-logic-archit)
     - 8.4 [部署文档](08-04-deployment-doc)
-* 9 会议记录
+* 9、  [成品展示]()
+* 10、会议记录
     - [会议记录汇总 ](09-01-first-meeting)
     - [第一次迭代记录](09-01-01-first-Iteration.md)
     - [第二次迭代记录](09-01-second-meeting.md)
     - [第三次迭代记录](09-01-third-meeting.md)
-* [10 技术报告](10-techwork-report.md)
-* 11 最终个人报告
+* [11、技术报告](10-techwork-report.md)
+* 12、最终个人报告
     - [16340226-王迎旭]()
     - [16340224-王显淼](https://blog.csdn.net/beashaper_/article/details/80871901)
     - [16340237-吴梓溢]()
     - [16340219-王亮岛]()
     - [16340253-谢浩峰]()
-* 12 项目分工
+* 13、项目分工
