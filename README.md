@@ -33,7 +33,3 @@ eg.
 1. 按照命名规范命名新文件
 2. 修改`index.md`来索引新加入的文件
 3. 提交
-
-## 参考
-
-本仓库的设计参考自师兄的[优秀作业](https://github.com/rookies-sysu/Dashboard)
