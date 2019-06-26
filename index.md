@@ -17,7 +17,6 @@ layout: default
     - 6.3 [领域模型](06-03-domain-model.md)
     - 6.4 [状态模型](06-04-state-model.md)
     - 6.5 [功能模型](06-05-system-sequence-diagram.md)
-    - 6.6 [补充性说明]()
 * 7、设计
     - 7.1UI 设计
         - [XX 用例 UI 设计](07-01-01-XX-ui-design)
@@ -38,9 +37,9 @@ layout: default
     - [会议记录汇总 ](09-01-first-meeting)
     - [第一次迭代记录](09-01-01-first-Iteration.md)
     - [第二次迭代记录](09-01-second-meeting.md)
-    - [第三次迭代记录](X1-iteration3-meeting)
+    - [第三次迭代记录](09-01-third-meeting.md)
 * [10 技术报告](10-techwork-report.md)
-* [11 最终个人报告](X3-final-report)
+* 11 最终个人报告
     - [16340226-王迎旭]()
     - [16340224-王显淼](https://blog.csdn.net/beashaper_/article/details/80871901)
     - [16340237-吴梓溢]()
