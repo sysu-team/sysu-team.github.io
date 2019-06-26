@@ -37,7 +37,7 @@ layout: default
 * 9 会议记录
     - [会议记录汇总 ](09-01-first-meeting)
     - [第一次迭代记录](09-01-01-first-Iteration.md)
-    - [第二次迭代记录](09-01-first-meeting.md)
+    - [第二次迭代记录](09-01-second-meeting.md)
     - [第三次迭代记录](X1-iteration3-meeting)
 * [10 技术报告](10-techwork-report.md)
 * [11 最终个人报告](X3-final-report)
