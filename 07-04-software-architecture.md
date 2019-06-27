@@ -1,33 +1,95 @@
-# 软件架构文档
+# 后端架构文档
 
-## 架构问题
+## 技术选型
 
-### 可靠性和可恢复性
+### 编程语言：[Golang With Go Module](https://golang.org/)
 
-- 因素：小程序使用过程中出现访问服务端中断问题并进行恢复
-- 度量和质量场景：当小程序访问服务端中断时，在正常的工作环境下，如果在15s内检测到其恢复，则重新建立连接
-- 可变性：在能够重新建立连接之前，可以在客户端进行简化服务
-- 该因素对涉众、架构以及其他因素的影响 ：小程序使用者的访问数据可能会发生丢失，无法传递给服务端
-- 对于成功的优先级 ：高
-- 困难或风险：中等
+Golang with go module 需要 go 的版本在 1.11 / 1.12 
 
-### 可支持性和可适用性
+### 基本框架：[Iris](https://iris-go.com/)
 
-- 因素：支持多种可变的第三方服务（支付系统等）
-- 度量和质量场景：当小程序访问第三方系统时可正常建立连接
-- 可变性：对于不同的第三方服务需要可连接的接口
-- 该因素对涉众、架构以及其他因素的影响 ：提高小程序的可扩展性
-- 对于成功的优先级 ：中等
-- 困难或风险：中等
 
-## 解决方案说明
+- [中文文档](https://learnku.com/docs/iris-go/10)
 
-### 如何提高服务器性能
+- [官方教程](https://docs.iris-go.com/)
 
-- 增加服务器内存
-- 限制同时服务的最多用户数，避免服务器负载超荷
-- 将动态数据存储到缓存文件中，前端（小程序）直接调用这些文件，而不必再访问数据库
-  - 比如委托者在发布多个委托时候，发布委托前的各个问卷不需存入数据库，在委托者完成支付之后再将其相应的数据加入数据库；
-- 优化数据库的查询SQL，避免使用代价高昂的查询，每次查询只返回自己需要的结果；避免短时间内的大量SQL查询
-- 数据库适当建立索引
-- 数据库定期备份，当数据库出现操作失误或系统故障导致数据丢失时可以恢复数据
+
+### 数据库：
+
+Mongodb: (具体的数据库设计请查看数据库设计文档) [数据库设计文档](todo)
+
+### 架构设计
+
+MVC (Router -> Controller -> Services -> Model)
+
+
+
+使用 Iris 实现的后台中，框架已经给我们提供了基本的Http服务器的功能，我们不需要接触到底层的连接管理等方面，只需要编写上层的业务逻辑就可以。
+
+- Router: 又称为路由, 我们通过 `router`，把用户发过来的请求和我们编写的处理逻辑对应起来，也就是 `request` 和 `handler` 之间的关系，在本次的框架中，`iris` 对 `mvc` 提供了强大的支持，我们无需像之前一样，编写冗余的代码在 endpoint 上去注册 handler，只需要按照一定的格式给我们的 handler 命名，iris 能够通过反射机制，实现绑定。
+ 
+- Controller：负责验证和转发从Router中传递过来的参数，并对请求做出应答。Controller实际与Request和Response接触，采用的是 `thin controller`的设计方式，把业务逻辑的处理都在了 `Service` 中，之所以把参数简单格式的检验放在 controller 层而不是 service，是出于对性能的考虑，在service 层上处理的话，还需要在从 service 把错误传回给 controller。
+
+- Service: 使用 model 层提供的接口，处理项目本身的业务逻辑，controller 保证了传下来的参数的格式正确性，逻辑正确性的验证需要在 Service 层中检查，把复杂的业务逻辑封装成简单的 api 供 controller 层使用。
+
+- Model: 负责数据操作，封装与数据库进行操作的逻辑成函数，提供给上层使用
+
+
+### 错误处理
+
+没有采用 golang 原来的错误处理（err,作为函数返回值)，有很多处理逻辑相似的错误处理，这样的话会有很多的冗余代码，所以直接采用的中间件 + panic 的机制，来吧底层的错误抛出到中间件中统一处理，具体可以看 lib/assert，以及 ErrorHandler 中间件。
+
+### 测试工具
+
+本次开发采用的是前后端分离的开发方式，在设计好api 之后，和对接之前都是在后端使用测试工具单独测试 API 功能。 
+
+- [postman](https://www.getpostman.com/) : 测试后端 api的基本功能
+
+## 目录结构
+
+```
+│  .gitignore
+│  config.example.yaml // 项目配置文件  
+│  go.mod              // go module 支持
+│  go.sum              // go module 支持
+│  main.go             // 项目入口 
+│  README.md            
+│                       
+├─app                   
+│  │  app.go           // 配置  
+│  │                    
+│  ├─configs            
+│  │      config.go    // 整个项目的配置文件， 包括数据库连接，小程序 appID, secret 等  
+│  │                    
+│  ├─controllers       // contorller 层
+│  │      controller.go
+│  │      delegation.go     // 委托相关
+│  │      questionnaire.go  // 问卷调查相关
+│  │      user.go           // 用户相关
+│  │
+│  ├─models            // model 层
+│  │      delegation.go 
+│  │      model.go      // 初始化数据库连接等
+│  │      model_test.go
+│  │      questionnaire.go
+│  │      user.go
+│  │
+│  ├─services       // service 层
+│  │      delegation.go
+│  │      service.go
+│  │      questionnaire.go
+│  └─     user.go       
+│ 
+├─docs             // 项目文档    
+│  │  document.md       
+│  │                    
+│  └─assets            
+└─lib              // 项目中用到的一些功能函数     
+        assert.go       
+        json.go
+```
+## 参考链接
+
+- [Go 教程](https://go.wuhaolin.cn/)
+
+- [Go 标准库](https://books.studygolang.com/The-Golang-Standard-Library-by-Example/)
