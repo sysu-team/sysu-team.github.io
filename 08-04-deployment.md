@@ -10,7 +10,7 @@
 
 ## 2. 后端
 
-
+[后端部署](https://github.com/XXXXIEHF/SWSAD/blob/master/report/%E5%90%8E%E7%AB%AF%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3.md)
 
 ## 3. 运行
 
