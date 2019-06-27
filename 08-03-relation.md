@@ -24,137 +24,84 @@
 
 ```bash
 |-UI
-
 |   | weui.wxss
-
 |   |-dist
-
 |   |	action-sheet
-
+|
 |-miniprogram_npm
-
 |   |-set-cookie-parser
-
 |   |-weapp=cookie
-
+|
 |-pages
-
+|
 |   |-detail
-
 |   |	detail.js
-
 |   |	detail.json
-
 |   |	detail.wxml
-
 |   |	detail.wxss
-
+|
 |   |-index
-
 |   |	index.js
-
 |   |	index.json
-
 |   |	index.wxml
-
 |   |	index.wxss  
-
+|
 |   |-logs
-
 |   |	logs.js
-
 |   |	logs.json
-
 |   |	logs.wxml
-
 |   |	logs.wxss  
-
+|
 |   |-publish
-
 |   |	publish.js
-
 |   |	publish.json
-
 |   |	publish.wxml
-
 |   |	publish.wxss  
-
+|
 |   |-questiondetail
-
 |   |	detail.js
-
 |   |	detail.json
-
 |   |	detail.wxml
-
 |   |	detail.wxss
-
+|
 |   |-questionnaire
-
 |   |	questionnaire.js
-
 |   |	questionnaire.json
-
 |   |	questionnaire.wxml
-
 |   |	questionnaire.wxss
-
+|
 |   |-questionresult
-
 |   |	result.js
-
 |   |	result.json
-
 |   |	result.wxml
-
 |   |	result.wxss
-
+|
 |   |-signup
-
 |   |	signup.js
-
 |   |	signup.json
-
 |   |	signup.wxml
-
 |   |	signup.wxss
-
+|
 |   |-user
-
 |   |	user.js
-
 |   |	user.json
-
 |   |	user.wxml
-
 |   |	user.wxss
-
+|
 |-source
-
 |   |-image
-
 |   |   detail.jpg
-
 |   |   ...
-
+|
 |-utils
-
 |   util.js
-
 |   README.md
-
 |   app.js
-
 |   app.json
-
 |   app.wxss
-
 |   package-lock.json
-
 |   package.json
-
 |   project.config.json
-
 |   sitemap.json
 ```
 
