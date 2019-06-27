@@ -1,4 +1,6 @@
-# 后端架构文档
+# 架构文档
+
+由于前端开发过程中使用对应的框架，非自主搭建，所以前端架构在这里不再赘述，只陈述后端开发架构；
 
 ## 技术选型
 
@@ -27,7 +29,7 @@ MVC (Router -> Controller -> Services -> Model)
 使用 Iris 实现的后台中，框架已经给我们提供了基本的Http服务器的功能，我们不需要接触到底层的连接管理等方面，只需要编写上层的业务逻辑就可以。
 
 - Router: 又称为路由, 我们通过 `router`，把用户发过来的请求和我们编写的处理逻辑对应起来，也就是 `request` 和 `handler` 之间的关系，在本次的框架中，`iris` 对 `mvc` 提供了强大的支持，我们无需像之前一样，编写冗余的代码在 endpoint 上去注册 handler，只需要按照一定的格式给我们的 handler 命名，iris 能够通过反射机制，实现绑定。
- 
+
 - Controller：负责验证和转发从Router中传递过来的参数，并对请求做出应答。Controller实际与Request和Response接触，采用的是 `thin controller`的设计方式，把业务逻辑的处理都在了 `Service` 中，之所以把参数简单格式的检验放在 controller 层而不是 service，是出于对性能的考虑，在service 层上处理的话，还需要在从 service 把错误传回给 controller。
 
 - Service: 使用 model 层提供的接口，处理项目本身的业务逻辑，controller 保证了传下来的参数的格式正确性，逻辑正确性的验证需要在 Service 层中检查，把复杂的业务逻辑封装成简单的 api 供 controller 层使用。
