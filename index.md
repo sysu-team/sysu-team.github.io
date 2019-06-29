@@ -31,11 +31,12 @@
     - [第二次迭代记录](09-01-second-meeting.md)
     - [第三次迭代记录](09-01-third-meeting.md)
 * [11、技术报告](10-techwork-report.md)
-* 12、最终个人报告
+* 12、最终报告
     - [16340226-王迎旭](王迎旭个人报告.md)
     - [16340224-王显淼](https://blog.csdn.net/beashaper_/article/details/80871901)
     - [16340237-吴梓溢]()
     - [16340219-王亮岛](https://blog.csdn.net/hellowangld/article/details/93974596)
     - [16340253-谢浩峰](https://github.com/XXXXIEHF/SWSAD/blob/master/report/%E4%B8%AA%E4%BA%BA%E6%8A%A5%E5%91%8A.md)
     - [16340235-吴槟](https://blog.csdn.net/qq_36312878/article/details/94200128)
+    - [小组总结](小组总结.md)
 * 13、[项目分工与贡献率说明](13-01-workcount.md)
