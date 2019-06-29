@@ -32,7 +32,7 @@
     - [第三次迭代记录](09-01-third-meeting.md)
 * [11、技术报告](10-techwork-report.md)
 * 12、最终个人报告
-    - [16340226-王迎旭]()
+    - [16340226-王迎旭](王迎旭个人报告.md)
     - [16340224-王显淼](https://blog.csdn.net/beashaper_/article/details/80871901)
     - [16340237-吴梓溢]()
     - [16340219-王亮岛](https://blog.csdn.net/hellowangld/article/details/93974596)
