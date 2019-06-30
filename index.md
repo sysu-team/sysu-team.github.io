@@ -34,7 +34,7 @@
 * 12、最终报告
     - [16340226-王迎旭](王迎旭个人报告.md)
     - [16340224-王显淼](https://blog.csdn.net/qq_36289733/article/details/94249612)
-    - [16340237-吴梓溢]()
+    - [16340237-吴梓溢](z1wu_personal_report.md)
     - [16340219-王亮岛](https://blog.csdn.net/hellowangld/article/details/93974596)
     - [16340253-谢浩峰](https://github.com/XXXXIEHF/SWSAD/blob/master/report/%E4%B8%AA%E4%BA%BA%E6%8A%A5%E5%91%8A.md)
     - [16340235-吴槟](https://blog.csdn.net/qq_36312878/article/details/94200128)
